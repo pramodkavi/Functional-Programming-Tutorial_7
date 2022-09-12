@@ -73,3 +73,34 @@ INFO: Unsupported notification method: $/setTrace
 2022.09.12 16:19:53 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q3.scala
 2022.09.12 16:33:06 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala
 2022.09.12 16:45:33 INFO  shutting down Metals
+2022.09.12 18:09:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at g:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\.metals\lsp.trace.json or C:\Users\DELL™\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.12 18:09:20 INFO  logging to file G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\.metals\metals.log
+2022.09.12 18:09:20 INFO  Started: Metals version 0.11.8+38-1832a3cf-SNAPSHOT in workspace 'G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7' for client Visual Studio Code 1.71.0.
+2022.09.12 18:09:29 INFO  time: initialize in 8.7s
+2022.09.12 18:09:30 WARN  Build server is not auto-connectable.
+2022.09.12 18:09:30 WARN  no build tool detected in workspace 'G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.12 18:09:30 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala
+2022.09.12 18:09:41 INFO  no build target found for G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.12 18:09:50 INFO  time: code lens generation in 10s
+2022.09.12 18:09:50 INFO  time: code lens generation in 10s
+2022.09.12 18:30:41 INFO  time: code lens generation in 1.22s
+2022.09.12 18:33:12 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala
+2022.09.12 18:33:53 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala
+Sep 12, 2022 6:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 374
+2022.09.12 18:36:46 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q4.scala
+2022.09.12 18:36:48 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q3.scala
+2022.09.12 18:36:50 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q2.scala
+2022.09.12 18:36:51 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q1.scala
+2022.09.12 18:38:32 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q1.scala
+2022.09.12 18:44:14 INFO  shutting down Metals
+2022.09.12 21:25:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at g:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\.metals\lsp.trace.json or C:\Users\DELL™\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.12 21:25:51 INFO  logging to file G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\.metals\metals.log
+2022.09.12 21:25:51 INFO  Started: Metals version 0.11.8+38-1832a3cf-SNAPSHOT in workspace 'G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7' for client Visual Studio Code 1.71.0.
+2022.09.12 21:26:00 INFO  time: initialize in 9.26s
+2022.09.12 21:26:02 WARN  Build server is not auto-connectable.
+2022.09.12 21:26:02 WARN  no build tool detected in workspace 'G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.12 21:26:02 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q1.scala
+2022.09.12 21:26:02 WARN  no build target for: G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q2.scala
+2022.09.12 21:26:33 INFO  no build target found for G:\New folder\2nd Year\SCS2204 Functional Programming\Prc\Tutorial_7\Q2.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.12 21:26:45 INFO  time: code lens generation in 37s

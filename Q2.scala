@@ -7,18 +7,24 @@ object Q2 extends App{
     var z = new Rational(2,7)
 
     //x-y-z
-    print(x.sub(y.sub(z)))
+    print(x-y-z)
     
 }
 
+def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
+
 class Rational(x:Int,y:Int){
-    def numer = x;
-    def denom = y;
+    private val g = gcd(Math.abs(x), y);
+    def numer = x / g;
+    def denom = y / g;
 
-    def sub(r:Rational)={
-        new Rational(numer * r.denom - r.numer * denom,denom * r.denom);
-    }
 
+    def neg = new Rational(-this.numer, this.denom)
+    def add(r:Rational) = new Rational(this.numer*r.denom + this.denom*r.numer, this.denom*r.denom)
+    def -(r:Rational) = this.add(r.neg)
+
+    private def gcd(x: Int, y: Int): Int = if (y == 0) x else gcd(y, x % y);
+    
     override def toString = this.numer + "/" + this.denom
 
 }

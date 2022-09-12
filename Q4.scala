@@ -1,11 +1,11 @@
-object Code {
+object Q4 {
     def main(args: Array[String]) = {
         val bank1 = new Bank()
 
-        val acc1 = new Account("12345", 10000)
-        val acc2 = new Account("67890", 30000)
-        val acc3 = new Account("45632", 40000)
-        val acc4 = new Account("13243", 25000)
+        val acc1 = new Account("354322", 40000)
+        val acc2 = new Account("464511", 25000)
+        val acc3 = new Account("365875", 10000)
+        val acc4 = new Account("568742", 30000)
 
         bank1.addAccount(acc1)
         bank1.addAccount(acc2)
@@ -17,17 +17,17 @@ object Code {
         acc2.transfer(acc1, 32000)
 
         // 4.1
-        println("Negative account balances are ") 
+        println("Negative account balances :") 
         bank1.listNegativeAccounts
         println()
 
         // 4.2
-        print("Sum of all balances is ") 
+        print("Sum of all balances :") 
         println(bank1.sumOfAllAccounts)
         println()
 
         //4.3
-        println("List of all balances after interest is ") 
+        println("List of all balances after interest :") 
         bank1.interest
         bank1.listAccounts
     }
